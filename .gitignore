@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Environment variables (Crucial for security!)
+.env
+.env.local
+.env.production
+.env.development
+
+# Build outputs
+/frontend/dist/
+/frontend/build/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

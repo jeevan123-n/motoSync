@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #111827; /* gray-900 */
+}
+
+/* Customizing leaflet popups to match dark theme */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #1F2937 !important; /* gray-800 */
+  color: white !important;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
